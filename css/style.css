@@ -1,0 +1,57 @@
+body{
+    background-color: #FFF2E0;
+}
+/* Barra de navegacion */
+
+.navbar {
+    padding: 2rem;
+    background-color: #E5EABF;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+/* Estilos Generales */
+
+ 
+
+
+/* Seccion Heron */
+.hero {
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-imagen.logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.hero-imagen.logo:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }  
+}
