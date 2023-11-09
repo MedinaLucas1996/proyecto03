@@ -36,12 +36,12 @@ body{
     height: 200px;
     margin: 20px;
     cursor: pointer;
-    transition: 2s;
+    transition: 4s;
 }
 
-.hero-imagen.logo:hover{
+.contenido:hover{
     transform: scale(1.1);
-    transition: 2s;
+    transition: 4s;
 }
 
 
