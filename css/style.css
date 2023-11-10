@@ -8,6 +8,10 @@ body{
     background-color: #E5EABF;
 }
 
+.card-body{
+    background-color: #E5EABF;
+}
+
 .navbar-collapse{
     align-items: center;
     justify-content: space-between;
