@@ -2,12 +2,14 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
 
-body{
+body {
     background-color: #FFF2E0;
-    
+
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -18,11 +20,11 @@ h2, h3, h4 {
     background-color: #E5EABF;
 }
 
-.card-body{
+.card-body {
     background-color: #E5EABF;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     align-items: center;
     justify-content: space-between;
 }
@@ -53,11 +55,11 @@ h2, h3, h4 {
     transition: 4s;
 }
 
-.hero{
+.hero {
     transition: 4s;
 }
 
-.hero-principal:hover{
+.hero-principal:hover {
     transform: scale(1.1);
     transition: 4s;
 }
@@ -78,16 +80,132 @@ h2, h3, h4 {
 .card h5 {
     text-transform: uppercase;
     color: #A78787;
-    font-size: .8rem;  
+    font-size: .8rem;
 }
 
 .card p {
     line-height: 1.4em;
 }
 
-.card {
+.card.heroinf {
     box-shadow: 1px 1px black, -0em 0 .9em black
 }
+
+
+/* Contacto */
+
+.contacto.container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangle {
+    margin-top: 1rem;
+    background-color: #E5EABF;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 0.1em 0.5em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 1 ease-in-out;
+}   
+
+.contacto button i{
+    color: black;
+    font-size: 1.3rem;
+    transition: all 1 ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: black;
+    color: black;
+    color: white;
+
+}
+
+.contacto button:hover i {
+    color: black;
+    color: white;
+}
+
+
+
+/* Footer   */
+
+footer {
+    min-height: 50px;
+    background-color: black;
+}
+
+.footer-logo {
+    height: 100px;
+    width: 150px;
+    margin: 10px;
+    background-color: #E5EABF;
+    border-radius: 50%;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand' sans-serif;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2 ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2 ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: #E5EABF;
+    border: 2px solid red
+}
+
+.iconos-redes-sociales a:hover i {
+    color: red;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
 
 /* Responsive */
 @media screen and (max-width: 767px){
