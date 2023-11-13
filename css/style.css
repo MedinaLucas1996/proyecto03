@@ -58,7 +58,7 @@ h4 {
 }
 
 .hero-principal:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
     z-index: 2;
 }
 
@@ -87,7 +87,7 @@ h4 {
 }
 
 .card.heroinf {
-    box-shadow: 1px 1px black, -0em 0 .9em black
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
 }
 
 
@@ -149,6 +149,10 @@ h4 {
     color: black;
     color: white;
 }
+
+/* ¿Quienes somos? */
+/* Carousel inferior */
+
 
 
 
